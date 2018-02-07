@@ -264,7 +264,7 @@ window.getScoreChart = function (domId) {
         backgroundColor: bgColor,
         color: colors,
         title: [{
-            text: 'Ovilia 2017 读书记录',
+            text: 'selonsy 2017 读书记录',
             bottom: 20,
             right: 20,
             textStyle: {

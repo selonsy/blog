@@ -33,7 +33,7 @@ function processPageView(rows) {
     $('.post-block').each(function() {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
-            myPath = myPath.slice('http://zhangwenli.com'.length);
+            myPath = myPath.slice('https://shenjl.github.io'.length);
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
@@ -83,7 +83,7 @@ LazyLoad.js('/blog/js/jquery-1.11.1.min.js', function () {
         // // google pageview
         // setTimeout(function() {
         //     $.ajax({
-        //         url: 'https://ovilia-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA',
+        //         url: 'https://selonsy-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA',
         //         dataType: 'jsonp',
         //         timeout: 1000 * 3, // 3 sec
         //         success: function(data) {

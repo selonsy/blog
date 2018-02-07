@@ -4,7 +4,7 @@
     {% if page.series %}
         : {{ page.series }}
     {% endif %}
- - 羡辙杂俎</title>
+ - 天宇小筑</title>
 
 
 {% assign isZn = false %}
@@ -24,7 +24,7 @@
     {% endif %}
 
     <div class="simpleNav">
-        <a href="http://zhangwenli.com" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InPost', window.location.pathname]);">{% if isZn %}首页{% else %}Home{% endif %}</a>
+        <a href="https://shenjl.github.io" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InPost', window.location.pathname]);">{% if isZn %}首页{% else %}Home{% endif %}</a>
         <a href="{{ site.url }}" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InPost', window.location.pathname]);">{% if isZn %}博客{% else %}Blog{% endif %}</a>
     </div>
 
@@ -57,7 +57,7 @@
     <a style="text-align: center; display: block;" href="{{ site.url }}/tip/" onclick="_gaq.push(['_trackEvent', 'ToTip', 'InPostImg', window.location.pathname]);">
         <img src="{{ site.url }}/img/tip.png" style="width: 80px" />
     </a>
-    <div style="text-align: center; color: #666;">博文对你有帮助吗？如果有的话，要不要<a href="{{ site.url }}/tip/" onclick="_gaq.push(['_trackEvent', 'ToTip', 'InPost', window.location.pathname]);">送我一本书</a>呢？:heart_eyes:</div>
+    <div style="text-align: center; color: #666;">博文对你有帮助吗？如果有的话，要不要<a href="{{ site.url }}/tip/" onclick="_gaq.push(['_trackEvent', 'ToTip', 'InPost', window.location.pathname]);">喂我点狗粮</a>呢？:heart_eyes:</div>
 
 
     {% if page.series %}
@@ -77,17 +77,17 @@
     {% endif %}
     <hr />
     
-    <p class="no-indent">微信公众号“羡辙部落格”（xianzheblog）提供本站优质非技术类博文推送。</p>
+    <p class="no-indent">微信公众号“彦承部落格”（yanchengblog）提供本站优质非技术类博文推送。</p>
     
     <div class="social-share">
-        <a class="social-share-element social-twitter" href="https://twitter.com/intent/tweet?text={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&via=OviliaZhang&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter" onclick="_gaq.push(['_trackEvent', 'Share', 'Twitter', window.location.pathname]);"></a>
-        <a class="social-share-element social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook" onclick="_gaq.push(['_trackEvent', 'Share', 'Facebook', window.location.pathname]);"></a>
-        <a class="social-share-element social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus" onclick="_gaq.push(['_trackEvent', 'Share', 'GPlus', window.location.pathname]);"></a>
+        <a class="social-share-element social-twitter" href="https://twitter.com/intent/tweet?text={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&via=selonsy&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter" onclick="_gaq.push(['_trackEvent', 'Share', 'Twitter', window.location.pathname]);"></a>
+        <!-- <a class="social-share-element social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook" onclick="_gaq.push(['_trackEvent', 'Share', 'Facebook', window.location.pathname]);"></a> -->
+        <!-- <a class="social-share-element social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus" onclick="_gaq.push(['_trackEvent', 'Share', 'GPlus', window.location.pathname]);"></a> -->
         <a class="social-share-element social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&source=http%3a%2f%2fzhangwenli.com" target="_blank" title="Share this post on LinkedIn" onclick="_gaq.push(['_trackEvent', 'Share', 'LinkedIn', window.location.pathname]);"></a>
-        <a class="social-share-element social-digg" href="http://digg.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Digg" onclick="_gaq.push(['_trackEvent', 'Share', 'Digg', window.location.pathname]);"></a>
-        <a class="social-share-element social-reddit" href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Reddit" onclick="_gaq.push(['_trackEvent', 'Share', 'Reddit', window.location.pathname]);"></a>
-        <a class="social-share-element social-stumble" href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on StumbleUpon" onclick="_gaq.push(['_trackEvent', 'Share', 'StumbleUpon', window.location.pathname]);"></a>
-        <a class="social-share-element social-weibo" href="http://v.t.sina.com.cn/share/share.php?title=来看看+%40羡辙+的博文吧：{% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}{% if page.titleImg != null %}&pic={{ page.titleImg }}{% endif %}" target="_blank" title="Share this post on Sina Weibo" onclick="_gaq.push(['_trackEvent', 'Share', 'Weibo', window.location.pathname]);"></a>
+        <!-- <a class="social-share-element social-digg" href="http://digg.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Digg" onclick="_gaq.push(['_trackEvent', 'Share', 'Digg', window.location.pathname]);"></a> -->
+        <!-- <a class="social-share-element social-reddit" href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Reddit" onclick="_gaq.push(['_trackEvent', 'Share', 'Reddit', window.location.pathname]);"></a> -->
+        <!-- <a class="social-share-element social-stumble" href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on StumbleUpon" onclick="_gaq.push(['_trackEvent', 'Share', 'StumbleUpon', window.location.pathname]);"></a> -->
+        <a class="social-share-element social-weibo" href="http://v.t.sina.com.cn/share/share.php?title=来看看+%40彦承+的博文吧：{% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}{% if page.titleImg != null %}&pic={{ page.titleImg }}{% endif %}" target="_blank" title="Share this post on Sina Weibo" onclick="_gaq.push(['_trackEvent', 'Share', 'Weibo', window.location.pathname]);"></a>
         <a class="social-share-element social-douban" href="http://shuo.douban.com/!service/share?href={{ site.url }}{{ page.url }}&name={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}{% if page.titleImg != null %}&image={{ page.titleImg }}{% endif %}" target="_blank" title="Share this post on Dounban" onclick="_gaq.push(['_trackEvent', 'Share', 'Douban', window.location.pathname]);"></a>
     </div>
 
