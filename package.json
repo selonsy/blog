@@ -22,5 +22,8 @@
     "gulp",
     "sass",
     "browsersync"
-  ]
+  ],
+  "dependencies": {
+    "eslint": "^4.17.0"
+  }
 }
