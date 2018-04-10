@@ -1,6 +1,6 @@
 ---
 title: Usage of Jekyll & Markdown
-time: 2018.04.10 14:49:52
+time: 2000.01.01 00:00:00
 layout: post
 tags:
 - Jekyll
