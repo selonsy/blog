@@ -4,7 +4,7 @@ time: 2018.02.07 14:49:52
 layout: post
 tags:
 - 中文
-- Fun
+- 娱乐
 excerpt: 和自己暗恋的人聊天是一种怎样的体验？
 ---
 <style>
