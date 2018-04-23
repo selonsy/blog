@@ -10,6 +10,9 @@ excerpt: 黄沙百战穿金甲，不破楼兰终不还！
 <style>
 .gray{color:gray;}
 </style>
+
+<p class="no-indent center"><img class="full-img" style="width:100%" src="{{ site.loadingImg }}" data-src="{{ site.url }}/img/post/2018-04-09-the-memoir-of-my-postgraduate-entrance-examination-1.jpg" /></p>
+
 ## 序言
 现在是北京时间公元2018年4月9日的早上，距离考研结束已经半个月了，才想起写自己的考研经历，重度拖延症患者飘过~ 
 
