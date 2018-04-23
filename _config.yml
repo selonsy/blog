@@ -1,9 +1,9 @@
 name: "Blog of Devin Shen"
 description: "Web Back-End Blog by Devin Shen"
 
-url: "http://test.fastinvoke.top/blog"
-loadingImg: "http://test.fastinvoke.top/blog/img/loading.gif"
-filePath: "http://test.fastinvoke.top/blog/img/"
+url: "http://fastinvoke.top/blog"
+loadingImg: "http://fastinvoke.top/blog/img/loading.gif"
+filePath: "http://fastinvoke.top/blog/img/"
 
 timezone: Asia/Shanghai
 
