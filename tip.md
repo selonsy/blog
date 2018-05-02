@@ -20,7 +20,7 @@ subtitle: 喂彦承狗粮，让他写出更棒的作品！
 
 请闭上眼睛随意输入数字 ^_^
 
-<img src="{{ site.loadingImg }}" data-src="https://shenjl.github.io/blog/img/zfb.png" />
+<img src="{{ site.loadingImg }}" data-src="https://shenjl.github.io/blog/img/zfb.jpg" />
 
 支付宝账号：`selonsy@163.com`
 
