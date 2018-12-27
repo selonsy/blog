@@ -1,10 +1,10 @@
-#Local Version
+#Offical Version
 name: "Blog of Devin Shen"
 description: "Web Back-End Blog by Devin Shen"
 
-url: "http://test.vmatrix.top/blog"
-loadingImg: "http://test.vmatrix.top/blog/img/loading.gif"
-filePath: "http://test.vmatrix.top/blog/img/"
+url: "http://vmatrix.top/blog"
+loadingImg: "http://vmatrix.top/blog/img/loading.gif"
+filePath: "http://vmatrix.top/blog/img/"
 
 timezone: Asia/Shanghai
 
