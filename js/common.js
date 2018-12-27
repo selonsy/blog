@@ -4,7 +4,9 @@ function loadMusic() {
         $('#music-content').append('<iframe frameborder="no" border="0"'
                 + ' marginwidth="0" marginheight="0" width=330 height=450'
                 + ' src="https://music.163.com/outchain/player?type=0'
-                + '&id=453269037&auto=0&height=430"></iframe>');
+                + '&id=74274667&auto=0&height=430"></iframe>');
+        //flash版本
+        //$('#music-content').append('<embed src="//music.163.com/style/swf/widget.swf?sid=74274667&type=0&auto=0&width=310&height=430" width="330" height="450"  allowNetworking="all"></embed>');
     }
 }
 
