@@ -2,9 +2,9 @@
 name: "Blog of Devin Shen"
 description: "Web Back-End Blog by Devin Shen"
 
-url: "http://vmatrix.top/blog"
-loadingImg: "http://vmatrix.top/blog/img/loading.gif"
-filePath: "http://vmatrix.top/blog/img/"
+url: "https://selonsy.github.io//blog"
+loadingImg: "https://selonsy.github.io/blog/img/loading.gif"
+filePath: "https://selonsy.github.io/blog/img/"
 
 timezone: Asia/Shanghai
 
